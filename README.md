@@ -9,8 +9,8 @@ As shown the game is one-player (versus a bot), but ```main()``` could be modifi
 <img src="screen.png"
      alt="screenshot"
      style="float: left; margin-right: 10px;" 
-     width="605" 
-     height="553"/>
+     width="407" 
+     height="372"/>
 
 _See documentation and Replit file below._
 
