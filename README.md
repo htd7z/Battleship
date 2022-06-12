@@ -6,6 +6,12 @@ Create a layout of ships and place them onto your ocean grid. Use your target gr
 
 As shown the game is one-player (versus a bot), but ```main()``` could be modified to make it two-player.<br/>
 
+<img src="screen.png"
+     alt="screenshot"
+     style="float: left; margin-right: 10px;" 
+     width="605" 
+     height="553"/>
+
 _See documentation and Replit file below._
 
 
@@ -54,6 +60,6 @@ To place a ship a player must choose a location for the front of the ship and a 
 The ```main()``` function runs the game. The ```game_over()``` function returns ```True``` if either player has won by sinking all of the other player's ships. It returns ```False``` otherwise.
 
 ### RUN IT YOURSELF
-
+**Fork this repl to test it since the console must be used to play the game.**
 **[Click here to test this game on replit.](https://replit.com/@ty-rese/Battleship#main.py)**
 **If you find any bugs, please email me at htd.7z@my.com**
