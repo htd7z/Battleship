@@ -33,9 +33,9 @@ Each 10x10 grid is made up squares. Blue squares represent empty ocean space, ye
 ### PLAYERS AND GRIDS
 The ```Player``` class manages players.<br/>
 
-```self.ship_health``` is a copy of ```game_ships``` and keeps track of the health of a player's ships. If a ship's health reaches zero, that means the ship has been sunk.
+```self.ship_health``` is a copy of ```game_ships``` and keeps track of the health of a player's ships. If a ship's health reaches zero, that means the ship has been sunk.<br/>
 
-```self.ships_sunk``` keeps track of how many opponent ships a player has sunk thus far.
+```self.ships_sunk``` keeps track of how many opponent ships a player has sunk thus far.<br/>
 
 ```self.main_board``` and ```self.shot_board``` represent the _ocean grid_ and the _target grid_ in the Battleship game. Both grids are stored as 10x10 two-dimensional lists of string elements. Initially, all of the elements are ```"ocean"``` which represent empty ocean space. <br/>
 
@@ -60,6 +60,6 @@ To place a ship a player must choose a location for the front of the ship and a 
 The ```main()``` function runs the game. The ```game_over()``` function returns ```True``` if either player has won by sinking all of the other player's ships. It returns ```False``` otherwise.
 
 ### RUN IT YOURSELF
-**Fork this repl to test it since the console must be used to play the game.**
+**Fork this repl to test it since the console must be used to play the game.**<br/>
 **[Click here to test this game on replit.](https://replit.com/@ty-rese/Battleship#main.py)**
 **If you find any bugs, please email me at htd.7z@my.com**
